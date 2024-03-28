@@ -1,0 +1,248 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+body {
+
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.general{
+    
+width: 90%;
+max-width: 1320px;
+overflow: hidden;
+margin: 20px auto;
+}
+
+.distribuidor{
+
+    width: 90%;
+}
+.arriba{
+    background-color:rgb(250, 36, 36) ;
+    width: 81%;
+    
+    border-radius: 20px;
+    
+    margin-top: 40px;
+    color: white;
+    opacity: 60%;
+
+}
+.buimon{
+    font-size: 30px;
+    position: relative;
+    left: 6%;
+    top: 40px;
+}
+.tienda{
+    width: 60%;
+    height: 60%;
+    font-size: 55px;
+    position: relative;
+    top: 40px;
+    right: 20%;
+}
+.log{
+    border-radius: 20px;
+    width: 20%;
+    position: relative;
+    left: 70%;
+    bottom: 80px;
+}
+.grupo{
+    
+    width: 25%;
+    position: relative;
+    left: 30%;
+    bottom: 70px;
+}
+.medio{ 
+    
+    width:100%;
+
+    
+}
+.sucursal{
+    background-color:rgb(250, 36, 36) ;
+    width: 60%;
+    height: 70%;
+    border-radius: 20px;
+    position: relative;
+    right: 11%;
+    top: 50px;
+    opacity: 60%;
+
+    
+}
+.ruta{
+    width:30%;
+    border-radius: 20px;
+    position: relative;
+    left: 10%;
+    top: 20px;
+    
+}
+.suc{
+    font-size: 30px;
+    position: relative;
+    left: 12%;
+    bottom: 40px;
+    color: white;
+    width: 16%;
+    height: 50px;
+}
+.empleados{
+    width: 100%;
+    height: 60%;
+    margin-right: 0;
+    position: relative;
+    bottom: 130px;
+    
+}
+.as{
+    background-color: rgb(250, 36, 36);
+   width: 10%;
+   height: 30%;
+   margin-right: 0;
+   border-radius: 10px 0 0 10px;
+   opacity: 60%;
+
+    
+}
+.ad{
+    background-color: rgb(250, 36, 36);
+   width: 10%;
+   height: 30%;
+   margin-right: 0;
+   border-radius: 10px 0 0 10px;
+   opacity: 60%;
+   margin-top: 20px;
+    
+}
+.ase{
+    font-size: 50px;
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+}
+.adm{
+    font-size: 50px;
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+}
+.entrar{
+    width: 82%;
+    height: 180px;
+    border-radius: 20px;
+    background-color: rgb(250, 36, 36);
+    opacity: 60%;
+    border: 5px solid rgb(240, 18, 18);
+    position: relative;
+    bottom: 20px;
+    
+    
+    
+}
+.ent{
+    font-size: 60px;
+    text-align: center ;
+    position: relative;
+    top: 50px;
+    color: yellow;
+}
+.entrar:hover{
+    background-color: rgb(247, 12, 12);
+}
+.as:hover{
+    background-color: rgb(247, 12, 12);
+}.ad:hover{
+    background-color: rgb(247, 12, 12);
+}
+.general{
+    width: 120%; 
+    background: url(../img/tiendacelulares.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:700px) {
+    .general{
+        width: 100%;
+    }
+    .as{
+        position: relative;
+        top: 30px;
+    }
+    .ad{
+        position: relative;
+        top: 30px;
+    }
+}
+@media screen and (max-width:582px){
+        
+    .as{
+        width: 20%;
+        position: relative;
+        top: 80px;
+        
+    }
+    .ad{
+        width: 20%;
+        position: relative;
+        top: 80px;
+    }
+    .general{
+        width: 100%;
+        
+    }
+    .suc{
+        display: none;
+    }
+    .ruta{
+        width: 40%;
+        height: 30%;
+        position: relative;
+        left: 30%;
+        top: 60%;
+    }
+    .log{
+        display: none;
+    }
+    .tienda{
+        display: none;
+    }
+    .grupo{
+        display: none;
+    }
+    .buimon{
+        height: 20px;
+        width: 90%;
+        font-size: 30px;
+    }
+    .arriba{
+        height: 150px;
+        
+    }
+    .ent{
+        font-size: 30px;
+    }
+
+}
+   
+    
+    
+
+    
+
+    
+
+
+

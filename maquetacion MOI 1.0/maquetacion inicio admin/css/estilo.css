@@ -1,0 +1,168 @@
+*{
+    margin: auto;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.general{
+    width: 100%;
+    max-width: 1300px;
+    height: 50rem;
+     overflow: hidden;
+    margin: auto ;
+ 
+}
+
+
+.administrador{background-color: rgb(250, 36, 36);
+    height: 25%;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    border-radius: 15px;
+    opacity: 60%;
+    
+}
+.aviso{
+    height: 38%;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+.entrada{
+    position: absolute;
+    left: 10%;
+    top: 90%;
+    width: 80%;
+    height: 17%;
+    
+
+}
+.adm{
+    color: white;
+    font-size: 350%;
+    position: relative;
+    left: 20%;
+    top: 30%;
+   
+}
+.bienv{
+    font-size: 350%;
+    position: relative;
+    
+    top: 15%;
+}
+.contraseña{background-color: rgb(250, 36, 36);
+    height: 80%;
+    width: 40%;
+    border-radius: 15px;
+    font-size: 400%;
+    color: white;
+    position: relative;
+    right: 30%;
+    display: grid;
+    place-content: center;
+    opacity: 60%;
+
+    
+}
+.entrar{
+    background-color:rgb(250, 36, 36) ;
+    width: 40%;
+    height: 80%;
+    float: right;
+    position: relative;
+    top: -80%;
+
+    border-radius: 15px;
+    opacity: 60%;
+}
+.clave{
+    width: 80%;
+    height: 60%;
+    border-radius: 15px;
+    position: relative;
+    left: 10%;
+    top: 15%;
+}.general{
+    background-image: url(../img/imag\ admin.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 120%;
+    
+}  
+.entrar:hover{
+    background-color: rgb(247, 12, 12);
+}
+
+@media (max-width: 1000px){
+    .adm{
+        font-size: 280%;
+    }
+    .contraseña{
+        font-size: 300%;
+    }
+    .bienv{
+        font-size: 290%;
+    }
+}
+@media (max-width:795px){
+
+    .adm{
+        font-size: 250%;
+    }
+    .contraseña{
+        font-size: 250%;
+    }
+    .bienv{
+        font-size: 260%;
+    }
+}
+@media (max-width:680px){
+
+    .adm{
+        font-size: 200%;
+    }
+    .contraseña{
+        font-size: 220%;
+    }
+    .bienv{
+        font-size: 230%;
+    }
+}
+@media (max-width:550px){
+
+    .adm{
+        font-size: 160%;
+    }
+    .contraseña{
+        font-size: 150%;
+    }
+    .bienv{
+        font-size: 200%;
+    }
+}
+@media (max-width:450px){
+
+    .adm{
+        font-size: 130%;
+    }
+    .contraseña{
+        font-size: 120%;
+    }
+    .bienv{
+        font-size: 170%;
+    }
+}

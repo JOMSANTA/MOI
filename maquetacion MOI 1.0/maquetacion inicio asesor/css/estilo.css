@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+justify-content: center center;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+    
+}
+.general{background-color: rgb(55, 255, 0);
+    width: 95%;
+    height: 46rem;
+    background-image: url(../img/fondo\ asesor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 5%;
+
+    
+
+    
+}
+.asesor{
+    background-color:rgb(250, 36, 36) ;
+    width: 60%;
+    height: 17%;
+    border-radius: 10px;
+    position: relative;
+    left: 19%;
+    top: 2%;
+    opacity: 60%;
+
+}
+.ase{
+    color: white;
+    font-size: 450%;
+    position: relative;
+    left: 30%;
+    top: .3%;
+}
+.aviso{
+    
+    width: 60%;
+    height: 20%;
+    position: relative;
+    left: 17%;
+    bottom: 10%;
+    
+}
+.texto{
+    font-size: 400%;
+    font-style: normal;
+    align-items: center;
+    position: relative;
+    top: .6%;
+    left: 6%;
+}
+.entrar{
+    width: 80%;
+    height: 5%;
+    position: relative;
+    left: 4.5% ;
+    bottom: 11%;
+}
+.contraseña{
+    background-color: rgb(250, 36, 36);
+    color: white;
+    font-size: 350%;
+    opacity: 60%;
+    height: 300%;
+    width: 40%;
+    border-radius: 10px;
+    position: relative;
+    left: 7%;
+    top: 30%;
+
+}
+.cont{
+    font-size: 150%;
+    color:white;
+    font-style: normal;
+    position: relative;
+    left: 8%;
+    top: 5%;
+}
+.in{
+    background-color: rgb(250, 36, 36);
+    opacity: 60%;
+    height: 300%;
+    width: 40%;
+    border-radius: 0.7em;
+    position: relative;
+    left: 61%;
+    bottom: 270%;
+    align-items: center center;
+
+}
+.enter{
+    background-color: rgb(148, 148, 238);
+    width: 70%;
+    height: 70%;
+    position: relative;
+    left: 15%;
+    top: 15%;
+    border-radius: 2em;
+    
+    
+}
+.buimon{
+    width: 20%;
+    
+    position: absolute;
+    left: 70%;
+    top: 350%;
+    font-size: 200%;
+    color: red;
+}
+.in:hover{
+    background-color: rgb(247, 12, 12);
+}
+@media  (max-width:1300px) {
+    .general{
+        width: 100%;
+    }
+    
+    
+    
+    .ase{
+        font-size: 350%;
+        position: relative;
+        top: 20%;
+    }
+    .texto{
+        display: none;
+    }
+    .buimon{
+        
+    }
+    .entrar{
+        background-color: aqua;
+        position: relative;
+        top: -20%;
+        height: 7%;
+    }
+    .contraseña{background-color: rgb(71, 165, 42);
+        position: relative;
+        left:30%;
+        top: -13rem;
+        width: 55%;
+    }
+    .cont{
+        
+        font-size: 400%;
+        position: relative;
+        left: 9%;
+        top: 25%;
+    }
+    .in{
+        width: 80%;
+        position: relative;
+        left: 15%;
+    }
+    .enter{
+        width: 70%;
+    }
+}
+@media(max-width:830px){
+    .cont{
+        font-size: 270%;
+        position: relative;
+        top: 20%;
+    }
+    .ase{
+        font-size: 250%;
+        position: relative;
+        left: 25%;
+    }
+    .enter{
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+    .in{
+        width: 90%;
+        position: relative;
+        left: 12%;
+    }
+}
